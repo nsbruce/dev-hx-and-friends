@@ -1,0 +1,7 @@
+theme = "nord"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.file-picker]
+hidden = false
