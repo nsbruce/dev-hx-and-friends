@@ -11,17 +11,13 @@ apt-get install --assume-yes --no-install-recommends \
   curl \
   git \
   build-essential \
-  clangd
-
-chsh -s /usr/bin/zsh
-
-add-apt-repository ppa:deadsnakes/ppa
-apt-get update
-apt-get install --assume-yes --no-install-recommends \
-  python3.14 \
-  python3.14-venv \
+  clangd \
+  python3 \
+  python3-venv \
   shellcheck \
   npm
+
+chsh -s /usr/bin/zsh
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 export PATH=/root/.cargo/bin:$PATH
@@ -31,14 +27,14 @@ apt-get install -y ./helix.deb
 rm helix.deb
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
-curl -sSL https://install.python-poetry.org | python3.14 -
+curl -sSL https://install.python-poetry.org | python3 -
 
 export VIRTUAL_ENV=/venv
 export POETRY_NO_INTERACTION=1
 export POETRY_VIRTUALENVS_CREATE=false
 export PATH=$VIRTUAL_ENV/bin:/root/.local/bin:$PATH
 
-python3.14 -m venv $VIRTUAL_ENV
+python3 -m venv $VIRTUAL_ENV
 
 uv pip install \
   isort \
