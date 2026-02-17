@@ -4,7 +4,7 @@ set -e
 # Basic smoke tests for hx-and-friends feature
 
 command -v zsh
-command -v python3.14
+command -v python3
 command -v rustc || command -v cargo
 command -v hx || command -v helix
 command -v uv

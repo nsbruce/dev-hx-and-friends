@@ -2,7 +2,7 @@
   "name": "Helix editor environment",
   "id": "hx-and-friends",
   "version": "0.0.1",
-  "description": "Zsh, Python 3.14 + tooling, Rust, Helix, uv, Poetry, LSPs, zellij, and editor configs from reference Dockerfile",
+  "description": "Zsh, Python 3 + tooling, Rust, Helix, uv, Poetry, LSPs, zellij, and editor configs from reference Dockerfile",
   "options": {},
   "installsAfter": [
     "ghcr.io/devcontainers/features/common-utils"

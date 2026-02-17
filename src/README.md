@@ -3,7 +3,7 @@
 Zsh-based development environment feature that installs:
 
 - Zsh, Git, build-essential, clangd
-- Python 3.14 + venv, uv, Poetry, and Python tooling (ruff, isort, pylsp, etc.)
+- Python 3 + venv, uv, Poetry, and Python tooling (ruff, isort, pylsp, etc.)
 - Rust (via rustup) and cargo utilities (texlab, zellij)
 - Helix editor with custom config and markdown formatting via dprint
 - Shellcheck, npm-based language servers, and dprint config
