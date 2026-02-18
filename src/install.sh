@@ -54,6 +54,10 @@ npm install --global \
 
 cargo install --git https://github.com/latex-lsp/texlab --locked --tag v5.24.0
 
+curl -Lo /usr/local/bin/marksman https://github.com/artempyanykh/marksman/releases/download/2025-12-13/marksman-linux-x64 && chmod 755 /usr/local/bin/marksman
+
+cargo install --locked zellij
+
 mkdir --parents /root/.config/helix /root/.config/dprint
 cp config.toml /root/.config/helix/config.toml
 cp languages.toml /root/.config/helix/languages.toml
