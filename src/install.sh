@@ -5,9 +5,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 apt-get update
 apt-get install --assume-yes --no-install-recommends \
-  software-properties-common \
   zsh \
-  ca-certificates \
   curl \
   git \
   build-essential \
