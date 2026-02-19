@@ -56,7 +56,7 @@ cargo install --git https://github.com/latex-lsp/texlab --locked --tag v5.24.0
 
 curl -Lo /usr/local/bin/marksman https://github.com/artempyanykh/marksman/releases/download/2025-12-13/marksman-linux-x64 && chmod 755 /usr/local/bin/marksman
 
-cargo install --locked zellij
+curl -Lo zellij.tar.gz https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-x86_64-unknown-linux-musl.tar.gz && tar xzf zellij.tar.gz && rm zellij.tar.gz && mv zellij /usr/local/bin/
 
 mkdir --parents /root/.config/helix /root/.config/dprint
 cp config.toml /root/.config/helix/config.toml
