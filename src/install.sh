@@ -50,7 +50,7 @@ npm install --global \
   dockerfile-language-server-nodejs \
   @microsoft/compose-language-service
 
-cargo install --git https://github.com/latex-lsp/texlab --locked --tag v5.24.0
+curl -Lo texlab.tar.gz https://github.com/latex-lsp/texlab/releases/download/v5.25.1/texlab-x86_64-linux.tar.gz && tar xzf texlab.tar.gz && rm texlab.tar.gz && mv texlab /usr/local/bin/
 
 curl -Lo /usr/local/bin/marksman https://github.com/artempyanykh/marksman/releases/download/2025-12-13/marksman-linux-x64 && chmod 755 /usr/local/bin/marksman
 
