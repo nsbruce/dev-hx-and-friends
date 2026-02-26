@@ -1,0 +1,4 @@
+[diff]
+	external = difft
+[safe]
+	directory = *

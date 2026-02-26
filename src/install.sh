@@ -63,6 +63,8 @@ cp config.toml /root/.config/helix/config.toml
 cp languages.toml /root/.config/helix/languages.toml
 cp dprint.json /root/.config/dprint/dprint.json
 
+cp gitconfig /root/.gitconfig
+
 git config --global credential.helper store
 
 # default shell
